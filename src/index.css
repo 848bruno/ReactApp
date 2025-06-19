@@ -2,9 +2,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@import "tailwindcss/preflight";
-@tailwind utilities;
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
